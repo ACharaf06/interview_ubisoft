@@ -1,4 +1,4 @@
-# Player matches — analysis & churn model
+# Player matches — analysis & churn proposal
 
 Interview exercise on `assets/playersmatches_test.csv` (95,734 player-match rows, 840 players,
 2025-03-04 → 2026-03-03).
@@ -22,5 +22,5 @@ Run it from the repository root — the data path in the notebook is relative. E
 | Path | What it is |
 |---|---|
 | `analysis.ipynb` | The analysis, section by section against the six questions |
-| `outputs/players_features.csv` | The player-level feature table: 840 rows × 38 columns |
+| `outputs/players_features.csv` | The player-level feature dataframe: 840 rows × 24 columns, plus the exported player ID index |
 | `requirements.txt` | Pinned versions this was run with |
